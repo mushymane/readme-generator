@@ -11,6 +11,8 @@ to write that data to a file. There is a file called generateMarkdown.js which g
 readme file using the user's input and template literals. In this same file it generates a license badge, and 
 license links.
 
+Here is a video tutorial: [Tutorial](https://watch.screencastify.com/v/RIT5XGo9sfw1s0jCkwA3)
+
 ## Table of Contents
 
 * [Installation](#installation)
