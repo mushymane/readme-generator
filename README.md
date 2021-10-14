@@ -36,8 +36,8 @@ Here is a video tutorial: [Tutorial](https://watch.screencastify.com/v/RIT5XGo9s
 
 - Download from Github
 - Use your command-line to get to the project directory
-- Install the required dependencies with npm install
-- Run the app with node index.js
+- Install the required dependencies with ```npm install```
+- Run the app with ```node index.js```
 
 ## Usage
 
