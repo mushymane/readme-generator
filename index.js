@@ -3,7 +3,40 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 // TODO: Create an array of questions for user input
-const questions = [];
+// change some of these to editor
+const questions = [
+    {
+        type: 'input',
+        name: 'description',
+        message: 'This command line app will generate a README.md for you. Start by describing your project:'
+    },
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'Provide instructions on how to install your project:'
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Explain how to use your project and provide an example:'
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Choose a license for your project:',
+        choices: ['Apache License 2.0', 'GNU GPLv2', 'GNU GPLv3', 'MIT', 'ISC']
+    },
+    {
+        type: 'input',
+        name: 'contributing',
+        message: 'Provide guidelines on how other developers can contribute to your project:'
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'Provide any tests and examples on how to run them:'
+    }
+];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
