@@ -35,8 +35,20 @@ const questions = [
         type: 'input',
         name: 'tests',
         message: 'Provide any tests and examples on how to run them:'
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Enter your Github username:'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Enter an email where others can contact you:'
     }
 ];
+
+
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
