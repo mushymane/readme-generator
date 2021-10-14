@@ -1,5 +1,5 @@
 # Readme Generator
-
+![license badge](https://img.shields.io/badge/license-ISC-orange)
 ## Description 
 
 This command line app generates a professional README.md for your project.
@@ -15,22 +15,12 @@ Here is a video tutorial: [Tutorial](https://watch.screencastify.com/v/RIT5XGo9s
 
 ## Table of Contents
 
-* [Techonologies Used](#technologies-used)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Code Snippet](#code-snippet)
+* [Credits](#contributing)
+* [Tests](#tests)
 * [Questions](#questions)
-* [Author Links](#author-links)
-
-## Technologies Used
-
-- JavaScript - programming language used for this app
-- Node.js - runtime environment
-- Inquirer - CLI for Node.js
-- Git - version control
-- Github - where the repository is hosted
-- Visual Studio Code - text editor
-- Screencastify - for recording video
+* [License](#license)
 
 ## Installation
 
@@ -45,19 +35,13 @@ Simply answer each prompt. Press enter to submit your input or to open your defa
 For the text editor questions, close the editor when you are done. Inquirer will save whatever information 
 you type in there. For the license question, use the arrow keys and press enter.
 
-## Code Snippet
+## Contributing
 
-JavaScript code that is basically the whole app
-```
-function init() {
-    inquirer
-        .prompt(questions)
-        .then((data) => {
-            writeToFile("README.md", data);
-        })
-        .catch((err) => console.log(err))
-}
-```
+Fork the repo
+
+## Tests
+
+No tests at the moment
 
 ## Questions
 
@@ -66,5 +50,14 @@ Have any questions? My Github and email:
 [My Github Link](https://github.com/mushymane)  
 Email: mushymanee@gmail.com
 
-## Author Links
-[LinkedIn](https://www.linkedin.com/in/luigilantin/)
+## License
+  
+  Copyright <YEAR> <OWNER>
+
+  Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+
+  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+  For more information, visit https://opensource.org/licenses/ISC
+  
+  
