@@ -1,14 +1,20 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const markdown = require("./generateMarkdown.js");
 
 // TODO: Create an array of questions for user input
 // change some of these to editor
 const questions = [
     {
         type: 'input',
+        name: 'title',
+        message: 'This command line app will generate a README.md for you. What is the title of your project?'
+    },
+    {
+        type: 'input',
         name: 'description',
-        message: 'This command line app will generate a README.md for you. Start by describing your project:'
+        message: 'Now describe your project:'
     },
     {
         type: 'input',
@@ -18,12 +24,12 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'Explain how to use your project and provide an example:'
+        message: 'Explain how to use it and provide an example:'
     },
     {
         type: 'list',
         name: 'license',
-        message: 'Choose a license for your project:',
+        message: 'Choose a license:',
         choices: ['Apache License 2.0', 'GNU GPLv2', 'GNU GPLv3', 'MIT', 'ISC']
     },
     {
@@ -50,7 +56,10 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    
+    let genMarkdown = markdown(data);
+    fs.writeFile(fileName, genMarkdown, (err) => {
+        err ? console.log(err) : console.log("Serving up your README");
+    })
 }
 
 // TODO: Create a function to initialize app
@@ -58,7 +67,7 @@ function init() {
     inquirer
         .prompt(questions)
         .then((data) => {
-            writeToFile('README.md', data);
+            writeToFile("README.md", data);
         })
         .catch((err) => console.log(err))
 }
