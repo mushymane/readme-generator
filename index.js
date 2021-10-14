@@ -12,7 +12,7 @@ const questions = [
         message: 'This command line app will generate a README.md for you. What is the title of your project?'
     },
     {
-        type: 'input',
+        type: 'editor',
         name: 'description',
         message: 'Now describe your project:'
     },

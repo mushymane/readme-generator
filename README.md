@@ -1,8 +1,15 @@
-# blehh
+# test
 ![license badge](https://img.shields.io/badge/license-Apache%202.0-brightgreen)
 ## Description 
 
-BLEEEHHH
+this is a project. testing inquirer editor
+		eyeyye
+	hiiiiii	
+5354 fwferf 		ioior3
+
+hihihiihhihhiiiiiiiiiiucutehahhhhhh
+
+:p
 
 ## Table of Contents
 
@@ -15,26 +22,26 @@ BLEEEHHH
 
 ## Installation
 
-blah
+test
 
 ## Usage
 
-BLAHHHH
+test
 
 ## Contributing
 
-oh my lord
+test
 
 ## Tests
 
-lord have mercy
+test
 
 ## Questions
 
 Have any questions? My Github and email:
 
-[My Github Link](https://github.com/mushymane)  
-Email: mushymanee@gmail.com
+[My Github Link](https://github.com/mush)  
+Email: mash@mush.com
 
 ## License
   
