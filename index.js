@@ -9,7 +9,7 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'This command line app will generate a README.md for you. What is the title of your project?'
+        message: 'This command line app will generate a README.md for you. Some questions will open your default text editor for input. First, what is the title of your project?'
     },
     {
         type: 'editor',
@@ -17,12 +17,12 @@ const questions = [
         message: 'Now describe your project:'
     },
     {
-        type: 'input',
+        type: 'editor',
         name: 'installation',
         message: 'Provide instructions on how to install your project:'
     },
     {
-        type: 'input',
+        type: 'editor',
         name: 'usage',
         message: 'Explain how to use it and provide an example:'
     },
@@ -33,12 +33,12 @@ const questions = [
         choices: ['Apache License 2.0', 'GNU GPLv2', 'GNU GPLv3', 'MIT', 'ISC']
     },
     {
-        type: 'input',
+        type: 'editor',
         name: 'contributing',
         message: 'Provide guidelines on how other developers can contribute to your project:'
     },
     {
-        type: 'input',
+        type: 'editor',
         name: 'tests',
         message: 'Provide any tests and examples on how to run them:'
     },

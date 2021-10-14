@@ -1,15 +1,15 @@
-# test
-![license badge](https://img.shields.io/badge/license-Apache%202.0-brightgreen)
+# Readme Generator
+![license badge](https://img.shields.io/badge/license-ISC-orange)
 ## Description 
 
-this is a project. testing inquirer editor
-		eyeyye
-	hiiiiii	
-5354 fwferf 		ioior3
+This command line app generates a professional README.md for your project.
+It will prompt for the title of your project, a description, installation instructions, how to use it, 
+guidelines for contributions, testing and examples, your Github username and an email one can contact you.
 
-hihihiihhihhiiiiiiiiiiucutehahhhhhh
-
-:p
+It uses the npm Inquirer package to ask questions and receive input. It also uses the Node File System module 
+to write that data to a file. There is a file called generateMarkdown.js which generates the entire 
+readme file using the user's input and template literals. In this same file it generates a license badge, and 
+license links.
 
 ## Table of Contents
 
@@ -22,43 +22,40 @@ hihihiihhihhiiiiiiiiiiucutehahhhhhh
 
 ## Installation
 
-test
+- Download from Github
+- Use your command-line to get to the project directory
+- Install the required dependencies with npm install
+- Run the app with node index.js
 
 ## Usage
 
-test
+Simply answer each prompt. Press enter to submit your input or to open your default text editor. 
+For the text editor questions, close the editor when you are done. Inquirer will save whatever information 
+you type in there. For the license question, use the arrow keys and press enter.
 
 ## Contributing
 
-test
+Fork the repo
 
 ## Tests
 
-test
+No tests at the moment
 
 ## Questions
 
 Have any questions? My Github and email:
 
-[My Github Link](https://github.com/mush)  
-Email: mash@mush.com
+[My Github Link](https://github.com/mushymane)  
+Email: mushymanee@gmail.com
 
 ## License
   
-  Copyright [yyyy] [name of copyright owner]
+  Copyright <YEAR> <OWNER>
 
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
+  Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 
-    http://www.apache.org/licenses/LICENSE-2.0
+  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
-
-  For more information, visit (https://www.apache.org/licenses/LICENSE-2.0)
-
+  For more information, visit https://opensource.org/licenses/ISC
+  
   
